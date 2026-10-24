@@ -9,7 +9,7 @@
   "available": ["opus", "fable", "sonnet", "haiku"],
   "roles": [
     { "role": "feature, refactoring", "models": "default", "skill": "poteto-mode" },
-    { "role": "bug-fix", "models": "strongest", "skill": "poteto-mode" },
+    { "role": "bug-fix", "models": "default", "skill": "poteto-mode" },
     { "role": "perf-issue", "models": "strongest", "skill": "poteto-mode" },
     { "role": "hillclimb", "models": "strongest", "skill": "poteto-mode" },
     { "role": "judgment and prose", "models": "default", "skill": "poteto-mode" },
@@ -27,7 +27,7 @@
     { "role": "interrogate reviewers", "models": "panel", "skill": "interrogate" }
   ],
   "codex": {
-    "default": "gpt-6-sol",
+    "default": "gpt-5.6-sol",
     "strongest": "gpt-6-astra",
     "panel": ["gpt-6-astra", "gpt-6-sol", "gpt-6-luna"]
   },
